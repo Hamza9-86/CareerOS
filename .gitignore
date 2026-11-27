@@ -1,0 +1,39 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# JavaScript dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Generated data
+data/
+datasets/
+*.parquet
+
+# Local databases
+*.db
+*.duckdb
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
